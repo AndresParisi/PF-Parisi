@@ -1,0 +1,22 @@
+.video_container {
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+
+
+  & .video {
+    min-width: 300px;
+
+    & iframe {
+
+      text-align: center;
+      width: 100%;
+      aspect-ratio: 2/1.5;
+    }
+  }
+}
+

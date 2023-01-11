@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Blog de cafeterias en buenos aires" />
+    <meta name="keywords" content="cafe, granos, blog, cafeterias, cafe de especialidad" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="icon" href="./assets/pictures/icono/coffee-bean-solid-24.ico" />
@@ -16,7 +18,7 @@
       crossorigin="anonymous"
     />
     <!--LINK CCS-->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./scss/main.css" />
   </head>
 
   <body>
@@ -82,43 +84,39 @@
             ruta del café en la Ciudad
           </p>
         </div>
-        <div class="contenedor_imagenes">
-          <div class="imagenes">
-            <img src="./assets/pictures/galeria/index1.jpg" alt="" />
-            <h3>
-              Nació el Club de Café, una suscripción para recibir distintos
-              orígenes sin moverte de tu casa
-            </h3>
-            <p>
-              Mediante una suscripción mensual, todos los meses recibís una
-              entrega de café en tu domicilio. Cada envío es diferente a la
-              anterior. Podés personalizar tu pedido de acuerdo a la cafetera
-              que tengas. Elegí tu membresía y disfrutá del café de
-              especialidad....
-            </p>
-          </div>
-          <div class="imagenes">
-            <img src="./assets/pictures/galeria/index2.jpg" alt="" />
-            <h3>Postales (ilustradas) del FECA</h3>
-            <p>
-              Buenos Aires organizó su cuarto FECA y allí estuvimos. En este
-              encuentro nos juntamos con la ilustradora Pilar Sahagún para
-              mostrar el festival de café con otra mirada....
-            </p>
-          </div>
-          <div class="imagenes">
-            <img src="./assets/pictures/galeria/index3.jpg" alt="" />
-            <h3>
-              Lecturas cafeteras: cinco sitios con revistas y libros dedicados
-              al café
-            </h3>
-            <p>
-              Varias cafeterías tienen a disposición distintas publicaciones
-              dedicadas al café. La oferta es valiosa pero, en algunas
-              ocasiones, queda en segundo plano. Por eso hemos armado esta lista
-              de cinco sitios con lecturas cafeteras. Te contamos qué títulos
-              podés encontrar en cada uno y de qué se tratan....
-            </p>
+        <div>
+          <div class="card-group">
+            <div class="card imagenes">
+              <img src="./assets/pictures/galeria/index1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nació el Club de Café, una suscripción para recibir distintos
+                  orígenes sin moverte de tu casa</h5>
+                <p class="card-text">Mediante una suscripción mensual, todos los meses recibís una
+                  entrega de café en tu domicilio. Cada envío es diferente a la
+                  anterior. Podés personalizar tu pedido de acuerdo a la cafetera
+                  que tengas.</p>
+              </div>
+            </div>
+            <div class="card imagenes">
+              <img src="./assets/pictures/galeria/index2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Postales (ilustradas) del FECA</h5>
+                <p class="card-text">Buenos Aires organizó su cuarto FECA y allí estuvimos. En este
+                  encuentro nos juntamos con la ilustradora Pilar Sahagún para
+                  mostrar el festival de café con otra mirada....</p>
+              </div>
+            </div>
+            <div class="card imagenes">
+              <img src="./assets/pictures/galeria/index3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lecturas cafeteras: cinco sitios con revistas y libros dedicados
+                  al café</h5>
+                <p class="card-text">Varias cafeterías tienen a disposición distintas publicaciones
+                  dedicadas al café. La oferta es valiosa pero, en algunas
+                  ocasiones, queda en segundo plano. Por eso hemos armado esta lista
+                  de cinco sitios con lecturas cafeteras.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -149,14 +147,12 @@
               <img
                 src="./assets/pictures/Redes/facebook.png"
                 alt="Logo de Facebook"
-                style="width: 2%; height: 2%"
               />
             </a>
             <a href="https://www.instagram.com/" target="_blank">
               <img
                 src="./assets/pictures/Redes/instagram.png"
                 alt="Logo de Instagram"
-                style="width: 2%; height: 2%"
               />
             </a>
           </div>
