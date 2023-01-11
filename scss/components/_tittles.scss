@@ -1,0 +1,32 @@
+$colorFondoTitulo: rgba(201, 178, 152, 0.4);
+
+@mixin fondoTitulo {
+  border-radius: 10px;
+  background-color: $colorFondoTitulo;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: black;
+}
+
+.titulo {
+  @include fondoTitulo;
+
+  & h2 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-decoration: underline;
+  }
+
+  & p {
+    margin-bottom: 4rem;
+  }
+}
+
+.titulo-blog {
+
+  @include fondoTitulo;
+
+  & h4 {
+    color: rgb(255, 255, 255);
+  }
+}
