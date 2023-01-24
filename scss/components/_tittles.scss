@@ -3,18 +3,26 @@ $colorFondoTitulo: rgba(201, 178, 152, 0.4);
 @mixin fondoTitulo {
   border-radius: 10px;
   background-color: $colorFondoTitulo;
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 90%;
+  max-width: 400px;
   color: black;
+  margin: auto
+
 }
 
 .titulo {
   @include fondoTitulo;
 
-  & h2 {
+  & h1 {
     margin-bottom: 2rem;
     font-size: 3rem;
     text-decoration: underline;
+  }
+
+  & h1 {
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
   }
 
   & p {
@@ -27,6 +35,25 @@ $colorFondoTitulo: rgba(201, 178, 152, 0.4);
   @include fondoTitulo;
 
   & h4 {
-    color: rgb(255, 255, 255);
+  background-color: $colorFondoTitulo;
+  padding-top: 2rem;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
   }
+}
+
+
+.subtitulo {
+
+h4 {
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 }

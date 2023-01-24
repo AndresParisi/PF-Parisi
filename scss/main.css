@@ -235,15 +235,6 @@ h2 {
   padding-top: 1rem;
 }
 
-h4 {
-  padding-top: 2rem;
-  font-size: 25px;
-  color: black;
-  text-align: center;
-  font-weight: bold;
-  font-size: xx-large;
-}
-
 h3 {
   text-align: center;
   align-items: center;
@@ -268,14 +259,20 @@ p {
 .titulo {
   border-radius: 10px;
   background-color: rgba(201, 178, 152, 0.4);
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 90%;
+  max-width: 400px;
   color: black;
+  margin: auto;
 }
-.titulo h2 {
+.titulo h1 {
   margin-bottom: 2rem;
   font-size: 3rem;
   text-decoration: underline;
+}
+.titulo h1 {
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
 }
 .titulo p {
   margin-bottom: 4rem;
@@ -284,24 +281,42 @@ p {
 .titulo-blog {
   border-radius: 10px;
   background-color: rgba(201, 178, 152, 0.4);
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 90%;
+  max-width: 400px;
   color: black;
+  margin: auto;
 }
 .titulo-blog h4 {
-  color: rgb(255, 255, 255);
+  background-color: rgba(201, 178, 152, 0.4);
+  padding-top: 2rem;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.subtitulo h4 {
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .video_container {
+  margin: auto;
+  margin-bottom: 2rem;
   border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
   padding-top: 10px;
   text-align: center;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: space-around;
+  width: 95%;
 }
 .video_container .video {
+  width: 500px;
   min-width: 300px;
 }
 .video_container .video iframe {

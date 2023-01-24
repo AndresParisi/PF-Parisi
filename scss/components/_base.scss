@@ -50,26 +50,28 @@ footer {
   }
 
   & .redes {
-
     & a {
       text-decoration: none;
     }
 
     & img {
       width: 30px;
-      }
+    }
   }
-  
 }
 
-.input label input {
-  color: rgb(26, 170, 170);
-  width: 400px;
-  text-align: center;
-  padding: 1rem;
-  font-size: 18px;
-  margin: 2rem;
-  border-style: none;
+.input {
+  label {
+    input {
+      color: rgb(26, 170, 170);
+      width: 400px;
+      text-align: center;
+      padding: 1rem;
+      font-size: 18px;
+      margin: 2rem;
+      border-style: none;
+    }
+  }
 }
 
 .boton:hover {
